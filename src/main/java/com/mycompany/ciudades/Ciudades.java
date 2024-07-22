@@ -21,6 +21,8 @@ public class Ciudades {
                 {1, 0, 1, 0, 0}, 
                 {1, 1, 1, 0, 0}  
         };
+        
+        System.out.println("HOLAAA");
 
         // Matriz de distancias para representar la distancia entre los lugares conectados (en kilómetros)
         int[][] matrizDistancias = {
@@ -47,7 +49,7 @@ public class Ciudades {
             for (int j = 0; j < matrizAdyacencia[i].length; j++) {
                 System.out.print(matrizAdyacencia[i][j] + " ");
             }
-            System.out.println();
+            System.out.println("HOLAAA");
         }
 
       
